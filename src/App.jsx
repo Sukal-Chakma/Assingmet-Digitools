@@ -22,9 +22,8 @@ function App() {
   const fetchPromise = fetchData();
   return (
     <>
-      <Suspense>
         <HeaderSection cartData={cartData} />
-      </Suspense>
+
       <HeroSection />
       <StatusSection />
       <Suspense fallback={<div className='flex justify-center mt-5'><span className="loading loading-spinner loading-lg"></span></div>}>

@@ -4,6 +4,8 @@ import banner from '../../assets/products/banner.png';
 import dot from '../../assets/products/Group 5.png';
 const HeroSection = () => {
     return (
+
+        // hero text
         <div className='flex justify-between max-md:flex-col-reverse gap-4 w-11/12 mx-auto mt-20 mb-10 items-center'>
             <div>
                 <div className="badge mb-5 bg-blue-100 py-5 px-3 rounded-4xl text-purple-600"><img src={dot} alt="Dot" />New: AI-Powered Tools Available</div>
@@ -14,6 +16,7 @@ const HeroSection = () => {
                     <button className="btn rounded-3xl text-purple-700 border-2 border-purple-800 py-6"><Play className='text-purple-800' />Watch Demo</button>
                 </div>
             </div>
+            {/* hero image */}
             <div>
                 <img src={banner} alt="Hero Banner" className='max-md:w-3/4 max-md:h-1/2 mx-auto' />
             </div>

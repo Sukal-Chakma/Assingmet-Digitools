@@ -22,7 +22,9 @@ function App() {
   const fetchPromise = fetchData();
   return (
     <>
-        <HeaderSection cartData={cartData} />
+        <Suspense>
+          <HeaderSection cartData={cartData} />
+        </Suspense>
 
       <HeroSection />
       <StatusSection />

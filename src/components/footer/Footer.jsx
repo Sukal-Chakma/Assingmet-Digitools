@@ -1,3 +1,5 @@
+// Footer section 
+
 import React from 'react';
 import Instagram from '../../assets/products/Instagram.png';
 import Facebook from '../../assets/products/Facebook.png';

@@ -1,3 +1,5 @@
+// Hero section 
+
 import React from 'react';
 import { Play } from 'lucide-react';
 import banner from '../../assets/products/banner.png';

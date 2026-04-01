@@ -1,3 +1,5 @@
+// Subsdcription section is here
+
 import React from 'react';
 import { Check } from 'lucide-react';
 
